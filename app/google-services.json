@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "691438954194",
+    "project_id": "brf-grasloken",
+    "storage_bucket": "brf-grasloken.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691438954194:android:10b9595f2b031431356f0b",
+        "android_client_info": {
+          "package_name": "com.example.test_hsb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691438954194-4cdrv56d7o798on9c6ca5ov4ta0o5ab2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD92Pl_IBTaJ6Mv-Rd2bEoqt8I8mfowxyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691438954194-4cdrv56d7o798on9c6ca5ov4ta0o5ab2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

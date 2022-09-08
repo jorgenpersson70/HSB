@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.test_hsb">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Test_hsb">
+        <activity
+            android:name=".BytGruppInfo"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".problem1"
+            android:exported="false" />
+        <activity
+            android:name=".InfoMessage"
+            android:exported="false" />
+        <activity
+            android:name=".InfoGroup"
+            android:exported="false" />
+        <activity
+            android:name=".SkapaGrupp"
+            android:exported="false" />
+        <activity
+            android:name=".ny"
+            android:exported="false" />
+        <activity
+            android:name=".Administrator"
+            android:exported="false" />
+        <activity
+            android:name=".LaggInLagenhet"
+            android:exported="false" />
+        <activity
+            android:name=".AllaNotiser"
+            android:exported="false" />
+        <activity
+            android:name=".DinaNotiser"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".testar"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

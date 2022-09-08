@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/grasloken_front" />
+
+    <Button
+        android:id="@+id/dinaNotiserBtn"
+        android:layout_width="200dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="31dp"
+        android:text="DINA NOTISER"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/allaNotiserBtn"
+        android:layout_width="200dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="ALLA NOTISER"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dinaNotiserBtn" />
+
+    <Button
+        android:id="@+id/lagg_in_lagenhetBtn"
+        android:layout_width="200dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="LÄGG IN LÄGENHET"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/allaNotiserBtn" />
+
+    <Button
+        android:id="@+id/administratorBtn"
+        android:layout_width="200dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="ADMINISTRATÖR"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginBtn" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="200dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="login"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lagg_in_lagenhetBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
